@@ -22,7 +22,7 @@
         android:text="CV RAMAN GLOBAL UNIVERSITY"
         android:gravity="center"
         android:fontFamily="sans-serif-condensed-medium"
-        android:textSize="25dp"
+        android:textSize="25dp" />
 
 
 </LinearLayout>

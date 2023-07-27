@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Portfolio App</string>
+    <string name="profilepicture">profilePicture</string>
+    <string name="my_name">Shreyansh Kumar</string>
+    <string name="designation">Student , Btech 2nd Year CSE</string>
+    <string name="education">Education</string>
+    <string name="skills">Skills</string>
+    <string name="work">Work</string>
+    <string name="achievements">Achievements</string>
 </resources>
