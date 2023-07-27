@@ -1,28 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".educationView"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:ignore="UseCompoundDrawables">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="@string/college_name"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.624" />
 
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        tools:srcCompat="@drawable/cgu_logo"
-        android:layout_margin="20dp"
-        android:padding="10dp"
-        />
-    <TextView
-        android:layout_width="match_parent"
+        android:id="@+id/cgu_banner"
+        android:layout_width="410dp"
+        android:layout_height="300dp"
+        android:contentDescription="@string/banner_cgu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.319"
+        app:srcCompat="@drawable/cgu_banner" />
+
+    <ImageView
+        android:id="@+id/cgu_logo"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CV RAMAN GLOBAL UNIVERSITY"
-        android:gravity="center"
-        android:fontFamily="sans-serif-condensed-medium"
-        android:textSize="25dp" />
+        android:background="@color/black"
+        android:backgroundTint="?android:attr/textColorHint"
+        android:contentDescription="@string/new_logo_college"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.084"
+        app:srcCompat="@drawable/cgu_logo_new"
+
+        tools:ignore="ImageContrastCheck" />
 
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,4 +7,8 @@
     <string name="skills">Skills</string>
     <string name="work">Work</string>
     <string name="achievements">Achievements</string>
+    <string name="cgu_logo">CGU_LOGO</string>
+    <string name="college_name">CV RAMAN GLOBAL UNIVERSITY</string>
+    <string name="new_logo_college">new logo</string>
+    <string name="banner_cgu">banner</string>
 </resources>
