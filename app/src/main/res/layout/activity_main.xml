@@ -57,7 +57,8 @@
             android:text="@string/education"
             app:backgroundTint="@null"
             android:background="@drawable/reound_rec_bg"
-            tools:ignore="ButtonStyle" />
+            tools:ignore="ButtonStyle,VisualLintButtonSize"
+            android:textColor="@color/white"/>
 
         <Button
             android:id="@+id/btnSkills"
@@ -68,7 +69,8 @@
             android:text="@string/skills"
             android:background="@drawable/reound_rec_bg"
             app:backgroundTint="@null"
-            tools:ignore="ButtonStyle" />
+            android:textColor="@color/white"
+            tools:ignore="ButtonStyle,VisualLintButtonSize" />
     </LinearLayout>
 
     <LinearLayout
@@ -86,7 +88,8 @@
             android:text="@string/work"
             android:background="@drawable/reound_rec_bg"
             app:backgroundTint="@null"
-            tools:ignore="ButtonStyle" />
+            tools:ignore="ButtonStyle,VisualLintButtonSize"
+            android:textColor="@color/white"/>
 
         <Button
             android:id="@+id/button4"
@@ -97,7 +100,8 @@
             android:text="@string/achievements"
             android:background="@drawable/reound_rec_bg"
             app:backgroundTint="@null"
-            tools:ignore="ButtonStyle" />
+            tools:ignore="ButtonStyle,VisualLintButtonSize"
+            android:textColor="@color/white"/>
     </LinearLayout>
 
 </LinearLayout>
