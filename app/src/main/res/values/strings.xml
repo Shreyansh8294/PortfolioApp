@@ -108,4 +108,6 @@
     <string name="gdsc_volunteer_certificate">gdsc volunteer certificate</string>
     <string name="participation_certificate_in_coding_challenge">Participation Certificate in Coding Challenge</string>
     <string name="certificate_of_participation_coding_ninjas">certificate of participation coding ninjas</string>
+    <string name="c_programming">C Programming</string>
+    <string name="python_programming">Python Programming</string>
 </resources>
